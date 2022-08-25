@@ -1,6 +1,7 @@
 .overviewContainer{  
   width: 100%;  
   padding-top: 15vh;
+  padding-inline: 2%;
 }
 
 .overviewContainer .firstFold{  
