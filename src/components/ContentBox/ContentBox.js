@@ -1,4 +1,4 @@
-import classes from './ContentBox.module.css'
+
 
 const ContentBox = (props) => {
   const {subHeading, heading, para, textCenter = false} = props;  
