@@ -1,0 +1,51 @@
+.navLogoContainer img{
+  width: 66px;
+}
+
+.navLogoContainer{
+  cursor: pointer;
+  transition: 1s ease;
+}
+
+.navLogoContainer:hover img{
+  animation: logoHover 1s ease-in infinite;
+}
+
+@keyframes logoHover{
+  0%{
+    transform: scale(1);
+    opacity: 1;
+  }
+  50%{
+    transform: scale(1.03);
+    opacity: 0.9;
+  }
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.navLogoContainer p{
+  font-size: 20px;
+  font-family: var(--heading);
+  color: var(--headingGreen);
+}
+
+@media screen and (max-width: 768px){
+  .navLogoContainer img{
+    width: 44px;
+  }
+
+  .navLogoContainer p{
+    font-size: 12px;    
+  }
+
+  .navLogoContainer{
+    gap: 6px !important;
+  }
+}
+
+@media screen and (min-width: 768px){
+  
+}

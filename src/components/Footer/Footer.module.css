@@ -1,0 +1,177 @@
+.footerContainer{
+  padding-block: 100px;
+}
+
+.footerContainer h3{
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.inputContainer{
+  max-width: 790px;
+  width: 100%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 60px rgba(250, 87, 82, 0.2);
+  padding: 18px;
+  border-radius: 57px;
+  margin-top: 62px;
+}
+
+.inputContainer input{
+  flex-grow: 1;
+  outline: none;
+  color: rgba(117, 134, 129, 1);
+  font-size: 22px;
+  padding-inline: 20px;  
+  border: none;
+}
+
+.inputContainer button{
+  background: var(--ctaOrange);
+  color: white;
+  padding: 26px 80px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: var(--heading);
+  border-radius: 157px;
+  border: 2px solid transparent;
+  transition: 0.2s ease;
+}
+
+.inputContainer button:hover{
+  background: white;
+  border: 2px solid var(--ctaOrange);
+  color: var(--ctaOrange);
+}
+
+.footerNav{
+  margin-top: 143px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerNavOptions{
+  display: flex;
+  gap: 40px;   
+}
+
+.footerNavOptions div{
+  cursor: pointer;
+  font-size: 23px;
+  font-weight: 500;
+  color: var(--paraGreen);
+  font-family: var(--description);
+}
+
+.companyLogos{
+  display: flex;
+  gap: 30px;
+}
+
+.companyLogos img{
+  cursor: pointer;
+  transition: 0.3s ease;
+}  
+
+.companyLogos img:hover{
+  opacity: 0.8; 
+}
+
+.watermark{
+  border-top: 2px solid rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.05);
+  padding-bottom: 20px;
+}
+
+.watermark p{
+  text-align: center;
+  font-weight: 600; 
+  font-family: var(--description);
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: var(--paraGreen);
+}
+
+.watermark a{
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px){
+  .footerContainer{
+    margin-top: 80px;
+    padding-block: 50px;
+    padding-inline: 16px;
+  }  
+
+  .footerContainer h3{
+    font-size: 28px;
+  }
+
+  .inputContainer{   
+    width: 100%;    
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 20px rgba(250, 87, 82, 0.2);
+    padding: 10px;
+    border-radius: 57px;
+    margin-top: 30px;        
+  }
+
+  .inputContainer input{    
+    flex-grow: 1;
+    outline: none;
+    color: rgba(117, 134, 129, 1);
+    font-size: 16px;
+    padding-left: 10px;  
+  }
+
+  .inputContainer button{   
+    padding-block: 16px;
+    padding-inline: 32px;
+    font-size: 16px;    
+    border-radius: 60px;        
+  }
+  
+  .footerNav{
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .footerNavOptions{  
+    align-items: center;
+    flex-wrap: wrap;   
+    justify-content: center; 
+    gap: 16px;
+    margin-top: 40px;   
+  }
+
+  .footerNavOptions div{    
+    font-size: 16px;
+    text-align: center;    
+  }
+  
+  .companyLogos{
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+  }        
+  
+  .watermark{
+    border-top: 1px solid rgba(0, 0, 0, 0.2);    
+    padding-bottom: 15px;
+  }
+  
+  .watermark p{    
+    font-size: 14px;        
+  }  
+}
+
+@media screen and (min-width: 768px){
+  
+}
+

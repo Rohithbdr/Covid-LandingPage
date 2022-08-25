@@ -1,0 +1,96 @@
+.whatShouldWeDo{
+  padding-top: 100px;  
+}
+
+.contentBox{
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+.pointersContainer{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pointer{
+  display: flex;  
+  align-items: center;
+  gap: 120px;
+  justify-content: space-between;
+}
+
+.pointerTexts{
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;  
+}
+
+.pointerTexts h3{
+  padding-top: 15px;
+}
+
+.pointerNumber p{
+  color: var(--darkPink);
+  background: var(--lightPink);
+  height: 75px;
+  width: 75px;
+  font-size: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  border-radius: 100%;
+  flex-grow: 1;
+  font-family: var(--heading);
+}
+
+.pointerImage{
+  min-width: 40%;
+}
+
+@media screen and (max-width: 768px){
+  .pointersContainer{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+  } 
+
+  .pointer{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    justify-content: flex-start;
+  }
+
+  .pointer h3{
+    font-size: 24px;
+    padding-top: 4px;
+  }
+
+  .pointer img{
+    max-width: 65%;
+    margin-top: 18px;
+    margin-inline: auto;
+  }
+
+  .pointerNumber p{   
+    height: 50px;
+    width: 50px;
+    font-size: 24px;        
+  }
+
+  .pointerTexts{
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;      
+  }
+}
+
+@media screen and (min-width: 768px){
+  .second{
+    order: 1;
+  }
+}

@@ -1,0 +1,70 @@
+.card-cont{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 280px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 24px;
+    margin-block: 8px;
+
+}
+
+
+.name-cont {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12px;
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.head {
+    font-size: 18px;
+    color: #12022f;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.role {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #594d6d;
+    margin: 0px;
+}
+
+.title {
+    font-family: 'Roboto';
+    font-size: 32px;
+    color: #183b56;
+    margin: 0;
+    padding-inline: 20px;
+    
+  }
+
+
+.usercont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.del-button {
+    background: transparent;
+    border: none;
+    margin-left: 12%;
+
+}
+
+.cross {
+    height:15px;
+    width: 15px;
+}

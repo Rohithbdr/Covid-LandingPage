@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+@import url('http://fonts.cdnfonts.com/css/gelion');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  letter-spacing: 1.5px; 
+}
+
+body::-webkit-scrollbar{
+  display: none;
+  overflow-x: hidden;  
+}
+
+:root{
+  --heading: 'Red Hat Display', sans-serif;
+  --description: 'Gelion', sans-serif;
+  --paraGreen: rgba(75, 79, 81, 1);
+  --headingGreen: rgba(3, 87, 85, 1);
+  --headingOrange: rgba(250, 86, 82, 1);
+  --ctaOrange: rgba(251, 76, 71, 1);
+  --containerWidth: 1440px;
+  --darkPink: rgba(250, 86, 82, 1);
+  --lightPink: rgba(250, 86, 82, 0.15);
+}
+
+.containerWidth{
+  width: 100%;  
+  max-width: var(--containerWidth);
+  margin-inline: auto;
+}
+
+.heading-v1{
+  font-size: 52px;
+  font-weight: 700;
+  font-family: var(--heading);
+  color: var(--headingGreen);
+}
+
+.sub-heading-v1{
+  font-size: 32px;
+  font-weight: 700;
+  font-family: var(--heading);  
+  color: var(--headingOrange);
+}
+
+.para-v1{
+  font-size: 24px;
+  font-family: var(--description);
+  color: var(--paraGreen);
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.heading-v2{
+  font-size: 52px;
+  font-weight: 700;
+  font-family: var(--heading);  
+  color: var(--headingGreen);
+}
+
+.heading-v3{
+  font-size: 36px;
+  font-weight: 700;
+  font-family: var(--heading);  
+  color: var(--headingGreen);
+}
+
+.sub-heading-v2{
+  font-size: 32px;
+  font-weight: 700;
+  font-family: var(--heading);
+  color: var(--headingOrange);
+}
+
+.para-v2{
+  font-size: 20px;
+  font-family: var(--description);
+  color: var(--paraGreen);
+  font-weight: 500;
+  line-height: 40px;
+}
+
+@media screen and (max-width: 768px){
+  .heading-v1, .heading-v2{
+    font-size: 32px;    
+  }
+  
+  .sub-heading-v1, .sub-heading-v2{
+    font-size: 22px;    
+  }
+  
+  .para-v1, .para-v2{
+    font-size: 15px;    
+    line-height: 30px;
+  }    
+
+  .containerWidth{
+    padding-inline: 16px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  
+}
