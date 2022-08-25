@@ -41,7 +41,7 @@ const Footer = () => {
         </div>      
       </div>
       <div className={classes.watermark}>
-        <p>Developed by - <a  rel="noopener noreferrer">Rohith</a></p>
+        <p>Developed by - <a href="https://rohith-b-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer">Rohith</a></p>
       </div>
       </>
   )
